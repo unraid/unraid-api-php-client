@@ -17,3 +17,5 @@ $rootObject->selectCloud()
 $results = $client->runQuery($rootObject->getQuery());
 // This should use $results->getData() if used in production
 echo $results->getResponseBody();
+
+// Outputs: {"data":{"cloud":{"minigraphql":{"status":"DISCONNECTED","error":"Client Closed Connection"}}}}
