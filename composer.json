@@ -6,7 +6,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Unraid\\GraphqlPhpClient\\": "src/"
+            "Unraid\\GraphqlPhpClient\\": "src/schema"
         }
     },
     "authors": [
@@ -14,5 +14,8 @@
             "name": "Eli Bosley",
             "email": "ekbosley@gmail.com"
         }
-    ]
+    ],
+    "scripts": {
+        "example": "php src/examples/run-example.php"
+    }
 }
